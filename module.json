@@ -1,0 +1,64 @@
+{
+  "id": "guia-de-npcs-cdm-dev",
+  "title": "Guia de NPCs — CDM",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "v12.331"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Conteúdo do Guia de NPCs, para utilização em campanhas próprias.\n\nCompartilhamento proibido.",
+  "authors": [
+    {
+      "name": "Magoris",
+      "discord": "magoris",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "ameacas",
+      "label": "Ameaças",
+      "path": "packs/ameacas",
+      "type": "Actor",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "tormenta20",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "flags": {},
+  "manifest": "https://raw.githubusercontent.com/magoris19/guia-de-npcs-cdm/main/module.json",
+  "download": "https://github.com/magoris19/guia-de-npcs-cdm/archive/refs/tags/v0.0.1.zip"
+}
